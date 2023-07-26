@@ -10,7 +10,7 @@ const Home = () => {
       </main>
       <footer>FOOTER</footer>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
