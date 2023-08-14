@@ -1,11 +1,20 @@
 import Logo from 'components/logo'
 import Nav from 'components/nav'
 
-const Header = props => (
-  <headers>
-    <Logo />
-    <Nav />
-  </headers>
-)
+export default function Header () {
+  return (
+    <headers>
+      <Logo boxOn />
+      <Nav />
+    </headers>
+  )
+}
 
-export default Header
+// const Header = props => (
+//   <headers>
+//     <Logo boxOn />
+//     <Nav />
+//   </headers>
+// )
+
+// export default Header
